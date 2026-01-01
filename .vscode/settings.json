@@ -1,0 +1,41 @@
+{
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.parameterHints.enabled": false,
+    "editor.snippetSuggestions": "none",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.tabCompletion": "off",
+    "editor.hover.enabled": "off",
+    "editor.suggest.showKeywords": false,
+    "editor.suggest.showSnippets": false,
+    "editor.suggest.showWords": false,
+    "editor.suggest.showClasses": false,
+    "editor.suggest.showFiles": false,
+    "editor.suggest.showFunctions": false,
+    "editor.suggest.showInterfaces": false,
+    "editor.suggest.showMethods": false,
+    "editor.suggest.showModules": false,
+    "editor.suggest.showProperties": false,
+    "java.completion.enabled": false,
+    "java.completion.guessMethodArguments": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "java": false
+    },
+    "github.copilot.editor.enableAutoCompletions": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.codeLens": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.suggest.preview": false,
+    "debug.inlineValues": false
+}
