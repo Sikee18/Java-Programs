@@ -12,4 +12,4 @@ The goal is simple:
 - Build strong fundamentals
 - Eventually create real-world applications
 
-👇 You can explore my Java programs below, organized topic-wise.
+👆 You can explore my Java programs Above, organized topic-wise.
