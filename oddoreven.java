@@ -8,6 +8,5 @@ public class oddoreven{
         }else{
             System.out.println("Odd");
         }
-        
-    }
+}
 } 
