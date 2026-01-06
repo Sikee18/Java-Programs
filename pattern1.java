@@ -1,23 +1,18 @@
 public class pattern1 {
     public static void main(String args[]){
-        int n=5;
-        for(int rows=1;rows<=n;rows++){
-            for(int cols=1;cols<=(n-rows);cols++){
+        int n=4;
+        for(int rows=1;rows<=((n*2)-1);rows++){
+            int rowch=n>=rows?n-rows:rows-n;
+            for(int space=1;space<=rowch;space++){
                 System.out.print(" ");
             }
-            for(int cols=1;cols<=(rows*2-1);cols++){
+            int rowch1=n>=rows?(rows*2)-1:((n*2)-rows)*2-1;
+            for(int stars=1;stars<=rowch1;stars++){
                 System.out.print("*");
-            }System.out.println();
-
-        }
-        for(int rows=n-1;rows>=1;rows--){
-            for(int cols=1;cols<=(n-rows);cols++){
-                System.out.print(" ");
             }
-            for(int cols=1;cols<=(rows*2-1);cols++){
-                System.out.print("*");
-            }System.out.println();
+            System.out.println();
         }
+         
     }
 } 
     
