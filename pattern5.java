@@ -8,10 +8,12 @@ public class pattern5 {
             int left=cols;
             int right=(n*2)-cols;
             int mins=Math.min(Math.min(top,bottom), Math.min(right,left));
-            System.out.print(mins);
-        }System.out.println();
+            System.out.print(n-mins+1+"   ");
+        }System.out.println("  ");
 
     }
+    System.out.println(" ");
+
     
 }
 }
